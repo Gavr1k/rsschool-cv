@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background: linear-gradient(270deg, #EECFA9, #C5BDE6);
+}
+
+.cv{
+	width: 800px;
+	background: #fff;
+	margin: 25px auto;
+}
+
+footer{
+	background: #292b2f;
+	padding: 15px 30px;
+	color: #fff;
+	height: 200px;
+}
+
+footer ul
+{
+	list-style-type: none;
+}
+
+footer a
+{
+	height: 100px;
+	width: 100px;
+}
+
+footer a img
+{
+	width: 50px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+
+header{
+	background: #292b2f;
+	padding: 15px 30px;
+	color: #fff;
+	height: 200px;
+}
+
+header .name{
+	font-size: 52px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #FFFFF0;
+	width: 500px;
+
+}
+
+header .about{
+	margin-top: 20px;
+	line-height: 26px;
+	color: #FFFFF0;
+	width: 500px;
+
+}
+
+header .img_holder{
+	text-align: right;
+}
+
+header .img_holder img
+{
+	width: 200px;
+	border-radius: 40px;
+	margin-top: -130px;
+}
+
+main{
+	width: 100%;
+}
+
+section h1{
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	color: #261427;
+	position: relative;
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+section
+{
+	padding: 30px;
+	color: #292b2f;
+}
+
+section .li_wrap
+{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+section .li_wrap .date 
+{
+    width: 125px;
+    color: #383007;
+}
+
+section .li_wrap .info
+{
+	width: 600px;
+	padding-left: 25px;
+	position: relative;
+}
+
+section a
+{
+	text-decoration: none;
+
+	letter-spacing: 2px;
+	color: #3d2d2d;
+}
+
+section .li_wrap .info_title
+{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #3d2d2d;
+}
